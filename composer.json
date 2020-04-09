@@ -1,0 +1,27 @@
+{
+  "name": "evandroaugusto/stubhub-xml-api",
+  "description": "Create a JSON API extracting content from a XML file with StubHub events. It also uses a cache layer to provide a faster response.",
+  "type": "library",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/evandroaugusto/db-cache.git"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "evandroaugusto/db-cache": "*"
+  },
+  "authors": [
+    {
+      "name": "Evandro Oliveira",
+      "email": "evandro@siriusprime.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "evandroaugusto\\StubHub\\": "src"
+    }
+  }
+}
